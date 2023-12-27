@@ -1,0 +1,52 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+body,
+html,
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+#map {
+  cursor: crosshair;
+}
+
+
+body {
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.marker-position {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  padding: 10px;
+  font-weight: 700;
+  background-color: #fff;
+}
+
+.btn-markers {
+  display: block;
+  padding: 3px 5px;
+  border: 1px solid red;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 110px;
+  cursor: pointer;
+}
