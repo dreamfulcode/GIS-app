@@ -116,4 +116,5 @@ L.Control.CustomButtons = L.Control.Layers.extend({
   },
 });
 
-new L.Control.CustomButtons(null, overlayMaps, { collapsed: false }).addTo(map);
+// Use collapsed option to make the control initially collapsed
+new L.Control.CustomButtons(null, overlayMaps, { collapsed: true }).addTo(map);
